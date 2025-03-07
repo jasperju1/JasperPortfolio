@@ -6,12 +6,6 @@
     animation: animation 5s ease infinite;
 }
 
-.sticky {
-    position: fixed;
-    padding: 10px;
-    top: 30%;
-}
-
 a {
     color: white;
 }
@@ -37,6 +31,12 @@ h4 {
     }
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 * {
     font-family: kanit;
+    box-sizing: border-box;
 }
