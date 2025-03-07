@@ -6,6 +6,26 @@
     animation: animation 5s ease infinite;
 }
 
+.sticky {
+    position: fixed;
+    padding: 10px;
+    top: 30%;
+}
+
+a {
+    color: white;
+}
+
+
+h1 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+
 @keyframes animation {
     0%,
     100% {
